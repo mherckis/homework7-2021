@@ -70,6 +70,7 @@ document.querySelector("#vintage").addEventListener("click", function() {
 	video.classList.add('oldSchool')
 });
 
+//Remove Old School
 document.querySelector("#orig").addEventListener("click", function() {
 	console.log('Original');
 	video.classList.remove('oldSchool')
